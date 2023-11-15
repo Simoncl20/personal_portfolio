@@ -14,7 +14,7 @@
 :root {
     --bg-color: #fdfdfd;
     --text-color: #333;
-    --main-color: #e02859;
+    --main-color: #FF366B;
     --white-color: #fdfdfd;
     --shadow-color: rgb(0, 0, 0, 0.2);
 }
@@ -29,3 +29,14 @@ body{
     color: var(--text-color);
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 7%;
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
