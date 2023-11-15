@@ -10,3 +10,22 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+
+:root {
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --main-color: #e02859;
+    --white-color: #fdfdfd;
+    --shadow-color: rgb(0, 0, 0, 0.2);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
