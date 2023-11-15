@@ -35,7 +35,7 @@ body{
     left: 0;
     width: 100%;
     padding: 2rem 7%;
-    background: black;
+    background: transparent;
     display: flex;
     align-items: center;
     z-index: 100;
@@ -98,6 +98,7 @@ section {
 .home-content h1{
     font-size: 6.6rem;
     font-weight: 700;
+    margin-bottom: .3rem;
 }
 
 .home-content p {
@@ -143,4 +144,50 @@ section {
     background-color: transparent;
     color: var(--main-color);
     border: .2rem solid var(--main-color);
+}
+
+.home .profession-container{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 1080px;
+    height: 1080px;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.home .profession-container .profession-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1080px;
+    height: 1080px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .profession-box .profession{
+    left: 0 ;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--main-color);
+    transform: rotate(calc(360deg /4 * var(--i)));
+    transform-origin: 540px;
+}
+
+.home .profession i{
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+}
+
+.home .profession h3{
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1;
 }
