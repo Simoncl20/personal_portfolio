@@ -219,3 +219,38 @@ section {
     width: 40%;
     pointer-events: none;
 }
+
+span {
+    color: var(--main-color); 
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: blueviolet;
+}
+
+.about-img{
+    width: 40vw;
+}
+
+.heading{
+    font-size: 5.5rem;
+    text-align: center;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 2.2;
+}
+
+.about-content h3 {
+    font-size: 3rem;
+}
+
+.about-content p{
+    font-size: 2.6rem;
+    margin: 2rem 0 3rem
+}
