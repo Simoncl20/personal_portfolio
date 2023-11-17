@@ -492,3 +492,7 @@ span {
 
     background: var(--main-color);
 }
+
+.contact h2{
+    margin-bottom: 4rem;
+}
