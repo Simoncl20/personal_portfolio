@@ -427,9 +427,15 @@ span {
 
 .testimonial-container .testimonial-wrapper {
     position: relative;
-    max-width: 90rem;
+    max-width: 100rem;
     width: 100%;
     padding: 5rem;
+}
+
+.testimonial-wrapper .testimonial-box {
+    padding: 1rem;
+    border-radius: 2rem;
+    overflow: hidden;
 }
 
 .testimonial-content .testimonial-slide{
