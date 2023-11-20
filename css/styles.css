@@ -240,10 +240,10 @@ section {
     right: 0;
     width: 0;
     height: 0;
-    border-top: 520px solid green;
-    border-right: 520px solid blue;
+    border-top: 520px solid var(--main-color);
+    border-right: 520px solid var(--main-color);
     border-left: 520px solid transparent;
-    border-bottom: 520px solid yellow;
+    border-bottom: 520px solid var(--main-color);
 }
 
 .home-img img{
